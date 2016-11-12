@@ -8,9 +8,17 @@
   - [ ] makes post requests to api
 - [ ] Amazon web services
   - [ ] API gateway
+    - [ ] Create API to accept get and post requests
+    - [ ] Trigger lambda functions
   - [ ] Lambda
+    - [ ] Respond to Alexa queries
+    - [ ] Edit database through api call
+    - [ ] Create CloudWatch events from api calls
   - [ ] DynamoDB
+    - [ ] Store pill scheduling
+    - [ ] Store user settings
   - [ ] CloudWatch
+    - [ ] Setup initial events
   - [ ] Alexa
     - [ ] Alexa Voice Service for "push notifications"
 - [ ] Telegram bot
@@ -23,5 +31,5 @@
   - [ ] queries api gateway
   - [ ] allows changing of settings
 
-## Stretch Goals
+## Stretch Goals 
 - [ ] Twilio for prescription refills
