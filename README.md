@@ -14,12 +14,14 @@
     - [ ] Respond to Alexa queries
     - [ ] Edit database through api call
     - [ ] Create CloudWatch events from api calls
+    - [ ] Simulate voice control through api call
   - [ ] DynamoDB
     - [ ] Store pill scheduling
     - [ ] Store user settings
   - [ ] CloudWatch
     - [ ] Setup initial events
   - [ ] Alexa
+    - [ ] Accept main queries
     - [ ] Alexa Voice Service for "push notifications"
 - [ ] Telegram bot
   - [ ] accepts notifications from post requests
