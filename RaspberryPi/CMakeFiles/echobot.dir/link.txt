@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/echobot.dir/src/main.cpp.o  -o echobot -rdynamic /usr/local/lib/libTgBot.a -lwiringPi -lpthread -lssl -lcrypto -lboost_system -lboost_iostreams -lboost_unit_test_framework 

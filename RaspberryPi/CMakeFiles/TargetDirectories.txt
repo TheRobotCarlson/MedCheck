@@ -1,0 +1,1 @@
+/home/pi/tgbot-cpp-master/samples/curl_test/CMakeFiles/echobot.dir
