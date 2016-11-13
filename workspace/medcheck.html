@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="medcheck.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="medcheck.js"></script>
+  <script type="text/javascript" src="medCount.js"></script>
+</head>
+
+
+<div class="tabs">
+  <input type="radio" name="tabs" id="tabone" checked="checked">
+  <label for="tabone">Tab One</label>
+  <div class="tab">
+    <h1>Medications</h1>
+  <div id="buttons">
+  <a href="#" class="btn blue">Prozac</a>
+  <a href="#" class="btn blue">Hydroxyzine</a>
+  <a href="#" class="btn blue">Flagil</a>
+  <a href="#" class="btn blue">Prednizone</a>
+  <a href="#" class="btn blue">Cephalexin</a>
+
+</div>
+  </div>
+  
+  <input type="radio" name="tabs" id="tabtwo">
+  <label for="tabtwo">Tab Two</label>
+  <div class="tab">
+    <h1>Manage</h1>
+    <form>
+  <div class="col-2">
+    <label>
+      Pharmacy
+      <input placeholder="What is your provider's company name?" tabindex="1" value = "Kroger, Euclid Ave">
+    </label>
+  </div>
+  <div class="col-2">
+    <label>
+      Primary Physician
+      <input placeholder="Who represents the provider's company?" tabindex="2" value = "Dr. Shivani Thakur">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Phone
+      <input placeholder="What is the provider's phone number?" tabindex="3" value = "502-555-5555">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Email
+      <input placeholder="What is the provider's email?" tabindex="4" value = "cj.jennings@uky.edu">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Refill Rx
+      <select tabindex="5">
+        <option>Select Perscription</option>
+        <option>Prozac (20mg)</option>
+        <option>Hydroxyzine (50mg)</option>
+      </select>
+    </label>
+  </div>
+</form>
+  </div>
+  
+  <input type="radio" name="tabs" id="tabthree">
+  <label for="tabthree">About</label>
+  <div class="tab">
+    <h1>Tab Three Content</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+<script>
+var menus = {"0":{"name":"Prozac"},"1":{"name":"Hydroxyzine"}};
+      $('#button').append( '<a href="#" class="btn yellow">'+menus["0"].name+'</a>');
+
+  
+</script>
+
+</html>
+
+
+
