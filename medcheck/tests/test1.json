@@ -1,0 +1,29 @@
+{
+  "session": {
+    "sessionId": "SessionId.51e1fa7b-170a-468f-a484-b8c6a3149f25",
+    "application": {
+      "applicationId": "amzn1.ask.skill.d08a65f5-c068-49ec-8cf0-15964d62caea"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AF2MLROS5EYHHD5PQU54LWJ5CRCGH6XHGBYO4CWOHVTYN35SQVVVMAEVPGXSDTRJAMK6QSBRIBDAOYKQDUXC5QU5VBF5QBUQN77QUBYE2CCMBMQ3LIVONHW3XK4W33BAPNOK6ANPX4T27FPB52RHK3QRC27QA57HXQFQO2NUR5TGU3MHX3OZ2MLPGO5NEGYTT7VCWM7RH7YXSBY"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.05a54067-0c5e-493a-b235-79d3ad368094",
+    "locale": "en-US",
+    "timestamp": "2016-11-13T08:38:21Z",
+    "intent": {
+      "name": "PrescriptionIntent",
+      "slots": {
+        "medication": {
+          "name": "medication",
+          "value": "prozac"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,42 @@
+{
+  "drugs" : {
+    "umnitza" : {
+      "name" : "Umnitza",
+      "refill" : true,
+      "remaining" : 35,
+      "time_since" : 5000000
+    },
+    "cocaine" : {
+      "name" : "Cocaine",
+      "refill" : true,
+      "remaining" : 76,
+      "time_since" : 5000000
+    },
+    "prozac" : {
+      "dosage" : [ {
+        "days" : [ 0, 1, 4, 6 ],
+        "milligrams" : 20,
+        "time" : "00:56"
+      }, {
+        "days" : [ 0, 1, 3, 4 ],
+        "milligrams" : 50,
+        "time" : "01:02"
+      } ],
+      "name" : "prozac",
+      "refill" : false,
+      "remaining" : 20,
+      "time_since" : 5000000
+    },
+    "purginol" : {
+      "dosage" : [ {
+        "days" : [ 0, 2, 4, 6 ],
+        "milligrams" : 20,
+        "time" : "00:56"
+      } ],
+      "name" : "purginol",
+      "refill" : true,
+      "remaining" : 21,
+      "time_since" : 5000
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "CheckPrescriptionIntent",
+      "slots": [
+        {
+          "name": "medication",
+          "type": "LIST_OF_MEDICATIONS"
+        },
+        {
+          "name": "checkOption",
+          "type": "LIST_OF_CHECKS"
+        }
+      ]
+    },
+    {
+      "intent": "SetPrescriptionIntent",
+      "slots": [
+        {
+          "name": "medication",
+          "type": "LIST_OF_MEDICATIONS"
+        },
+        {
+          "name":"count",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name": "setOption",
+          "type": "LIST_OF_SETS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
