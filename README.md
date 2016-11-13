@@ -1,34 +1,26 @@
-# MedCheck
+     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
+     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+    ----------------------------------------------------------------- 
 
-## Main Components
-- [ ] raspberry pi server
-  - [ ] logs pill taken status every minute
-  - [X] records when pill container is opened
-  - [X] records when reset button is pressed
-  - [ ] makes post requests to api
-- [ ] Amazon web services
-  - [ ] Lambda
-    - [ ] Respond to Alexa queries
-    - [ ] Edit database through api call
-    - [ ] Create CloudWatch events from api calls
-    - [ ] Simulate voice control through api call
-  - [ ] Firebase
-    - [ ] Store pill scheduling
-    - [ ] Store user settings
-  - [ ] CloudWatch
-    - [ ] Setup initial events
-  - [ ] Alexa
-    - [X] Accept main queries
-    - [ ] Alexa Voice Service for "push notifications"
-- [ ] Telegram bot
-  - [ ] accepts notifications from post requests
-  - [X] queries api 
-  - [ ] change account settings
-- [ ] website
-  - [ ] scheduling of when pills are to be taken
-  - [ ] Change account settings
-  - [ ] queries api gateway
-  - [ ] allows changing of settings
 
-## Stretch Goals 
-- [ ] Twilio for prescription refills
+Hi there! Welcome to Cloud9 IDE!
+
+To get you started, we included a small hello world application.
+
+1) Open the hello-world.html file
+
+2) Click on the Preview button to open a live preview pane
+
+3) Make some changes to the file, save, watch the preview, and have fun!
+
+Happy coding!
+The Cloud9 IDE team
+
+
+## Support & Documentation
+
+Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
+To watch some training videos, visit http://www.youtube.com/user/c9ide
