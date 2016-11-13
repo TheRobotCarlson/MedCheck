@@ -3,29 +3,26 @@
 ## Main Components
 - [ ] raspberry pi server
   - [ ] logs pill taken status every minute
-  - [ ] records when pill container is opened
-  - [ ] records when reset button is pressed
+  - [X] records when pill container is opened
+  - [X] records when reset button is pressed
   - [ ] makes post requests to api
 - [ ] Amazon web services
-  - [ ] API gateway
-    - [ ] Create API to accept get and post requests
-    - [ ] Trigger lambda functions
   - [ ] Lambda
     - [ ] Respond to Alexa queries
     - [ ] Edit database through api call
     - [ ] Create CloudWatch events from api calls
     - [ ] Simulate voice control through api call
-  - [ ] DynamoDB
+  - [ ] Firebase
     - [ ] Store pill scheduling
     - [ ] Store user settings
   - [ ] CloudWatch
     - [ ] Setup initial events
   - [ ] Alexa
-    - [ ] Accept main queries
+    - [X] Accept main queries
     - [ ] Alexa Voice Service for "push notifications"
 - [ ] Telegram bot
   - [ ] accepts notifications from post requests
-  - [ ] queries api gateway 
+  - [X] queries api 
   - [ ] change account settings
 - [ ] website
   - [ ] scheduling of when pills are to be taken
