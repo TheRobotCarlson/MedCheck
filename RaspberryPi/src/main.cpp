@@ -69,8 +69,8 @@ int main() {
 	});
 	
 	
-	//Create Bot from Server
-	Bot bot("266600083:AAGoIuRtFKPYHS-ceHogTMOECXTYrcaHq_0");
+	//Create Bot from Server (note: we removed the key for upload to github)
+	Bot bot("<insert key here>");
 
 	//Upon Joining
 	bot.getEvents().onCommand("start", [&bot](Message::Ptr message) {
@@ -93,7 +93,7 @@ int main() {
 					digitalWrite(outputPins[j], 0);
 				
 				bot.getApi().sendMessage(message->chat->id, "Medicine Taken.");
-					
+					//TODO: lock database and add security rules
 				sysCommandAddtoArray = "curl -X PUT -d \'{\"takenMeds\":0}\' \'https://medcheck-34916.firebaseio.com/settings.json\'";
 
 				system(sysCommandAddtoArray.c_str());
