@@ -5,16 +5,16 @@
   - [ ] logs pill taken status every minute
   - [X] records when pill container is opened
   - [X] records when reset button is pressed
-  - [ ] makes post requests to api
+  - [X] makes post requests to api
 - [ ] Amazon web services
-  - [ ] Lambda
-    - [ ] Respond to Alexa queries
-    - [ ] Edit database through api call
+  - [X] Lambda
+    - [X] Respond to Alexa queries
+    - [X] Edit database through api call
     - [ ] Create CloudWatch events from api calls
     - [ ] Simulate voice control through api call
   - [ ] Firebase
-    - [ ] Store pill scheduling
-    - [ ] Store user settings
+    - [X] Store pill scheduling
+    - [X] Store user settings
   - [ ] CloudWatch
     - [ ] Setup initial events
   - [ ] Alexa
@@ -23,7 +23,7 @@
 - [ ] Telegram bot
   - [ ] accepts notifications from post requests
   - [X] queries api 
-  - [ ] change account settings
+  - [X] change account settings
 - [ ] website
   - [ ] scheduling of when pills are to be taken
   - [ ] Change account settings
