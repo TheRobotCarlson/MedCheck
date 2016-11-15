@@ -1,8 +1,7 @@
 # MedCheck
 
 ## Main Components
-- [ ] raspberry pi server
-  - [ ] logs pill taken status every minute
+- [X] raspberry pi server
   - [X] records when pill container is opened
   - [X] records when reset button is pressed
   - [X] makes post requests to api
@@ -12,7 +11,7 @@
     - [X] Edit database through api call
     - [ ] Create CloudWatch events from api calls
     - [ ] Simulate voice control through api call
-  - [ ] Firebase
+  - [X] Firebase
     - [X] Store pill scheduling
     - [X] Store user settings
   - [ ] CloudWatch
@@ -25,10 +24,13 @@
   - [X] queries api 
   - [X] change account settings
 - [ ] website
+  - [X] display medicine information
+  - [ ] display caretaker information
+  - [X] display pharmacist information
   - [ ] scheduling of when pills are to be taken
   - [ ] Change account settings
-  - [ ] queries api gateway
-  - [ ] allows changing of settings
+  - [X] queries database
 
 ## Stretch Goals 
 - [ ] Twilio for prescription refills
+- [ ] PillPack integration
