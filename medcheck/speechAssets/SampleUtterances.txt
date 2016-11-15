@@ -3,9 +3,14 @@ CheckPrescriptionIntent {checkOption} many {medication} I have left
 CheckPrescriptionIntent {checkOption} {medication} do I have
 CheckPrescriptionIntent {checkOption} my medication today
 CheckPrescriptionIntent {checkOption} do I take {medication}
-CheckPrescriptionIntent {checkOption} do I need to take today
+CheckPrescriptionIntent {checkOption} do I need to take {date}
+CheckPrescriptionIntent {checkOption} {medication} do I take
+
 
 SetPrescriptionIntent {setOption}
+
+
+
 
 
 
